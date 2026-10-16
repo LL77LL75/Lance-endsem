@@ -43,9 +43,10 @@ function setup () {
     platformSprite.height = 20;
     platformSprite.collider = "static";
 
-    ballSprite = new Sprite(40);
+    ballSprite = new Sprite();
     ballSprite.bounciness = 1;
     ballSprite.collider = "static";
+    ballSprite.diameter = 40;
     ballSprite.x = 320;
     ballSprite.y = 100;
 }
